@@ -68,7 +68,7 @@ Auto-Encoder Loss aka Model loss : Decoder loss + L2 norm of input-cover image a
 
 ![](result_images/single_steg_results_images.png)
 
-## Refrences
+## References
 
 - [Hiding Images in Plain Sight: Deep Steganography, by Shumeet Baluja (Google), at NIPS 2017](https://papers.nips.cc/paper/6802-hiding-images-in-plain-sight-deep-steganography)
 - [Image Steganography by Alexandre](https://github.com/alexandremuzio/deep-steg)
