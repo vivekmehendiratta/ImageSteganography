@@ -26,7 +26,7 @@ The model is composed of three parts: The **Preparation Network**, **Hiding Netw
 
 Prep-Network prepares the secret image to be hidden. This component serves two purposes. First, in cases in which the secret-image (size M × M) is smaller than the cover image (N × N), the preparation network progressively increases the size of the secret image to the size of the cover, thereby distributing the secret image’s bits across the entire N × N pixels. It is consisted of 2 convolution layers of 65 filters {50 3 × 3, 10 4 × 4, 5 5 × 5} patches.
 
-![](images/prep.png)
+![](images/Prep.png)
 
 ### Hiding Network
 
