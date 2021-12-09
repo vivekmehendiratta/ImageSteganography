@@ -1,4 +1,5 @@
-# Image Steganography
+
+# Image Steganograpghy
 
 ## Introduction
 
