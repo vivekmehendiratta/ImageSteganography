@@ -68,6 +68,43 @@ Auto-Encoder Loss aka Model loss : Decoder loss + L2 norm of input-cover image a
 
 ![](result_images/single_steg_results_images.png)
 
+## Multi Image Steganography
+
+Going beyond hiding image in image, we implemented hiding of 2 secret images in one cover image.
+
+## Dataset
+
+600 tiny images are equally divided in 3 sets of secret and cover images. 
+
+Secret 1 set : 200 images
+Secret 2 set : 200 images
+Cover set : 200 images
+
+## Model
+
+Model architecture is similar to hiding single image in an image. The only difference is multiple preparation networks and reveal networks.
+
+![](images/model_architecture_multi.png)
+
+### Model Parameters
+
+- Optimizer : Adam
+- Decoder Loss Functions: ||S-S'||
+- Auto-encoder Loss Function: ||C-C'|| + ||S-S'||
+- #Epochs: 1000
+- Batch Size: 32
+
+## Results
+
+Average of all reveal networks loss vs epoch
+
+![](result_images/multi_steg_full_reveal_loss.png)
+
+![](result_images/multi_steg_full_model_loss.png)
+
+![](result_images/multi_steg_results_images.png)
+
+
 ## References
 
 - [Hiding Images in Plain Sight: Deep Steganography, by Shumeet Baluja (Google), at NIPS 2017](https://papers.nips.cc/paper/6802-hiding-images-in-plain-sight-deep-steganography)
