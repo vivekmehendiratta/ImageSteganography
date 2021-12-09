@@ -1,4 +1,4 @@
-# ImageSteganograpghy
+# Image Steganograpghy
 
 ## Introduction
 
