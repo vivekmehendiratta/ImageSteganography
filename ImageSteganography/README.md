@@ -109,3 +109,4 @@ Average of all reveal networks loss vs epoch
 
 - [Hiding Images in Plain Sight: Deep Steganography, by Shumeet Baluja (Google), at NIPS 2017](https://papers.nips.cc/paper/6802-hiding-images-in-plain-sight-deep-steganography)
 - [Image Steganography by Alexandre](https://github.com/alexandremuzio/deep-steg)
+- [Multi-Image Steganography Using Deep Neural Networks](https://arxiv.org/abs/2101.00350)
