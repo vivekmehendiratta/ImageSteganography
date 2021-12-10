@@ -76,9 +76,9 @@ Going beyond hiding image in image, we implemented hiding of 2 secret images in 
 
 600 tiny images are equally divided in 3 sets of secret and cover images. 
 
-Secret 1 set : 200 images
-Secret 2 set : 200 images
-Cover set : 200 images
+- Secret 1 set : 200 images
+- Secret 2 set : 200 images
+- Cover set : 200 images
 
 ## Model
 
