@@ -91,7 +91,7 @@ Model architecture is similar to hiding single image in an image. The only diffe
 - Optimizer : Adam
 - Decoder Loss Functions: ||S-S'||
 - Auto-encoder Loss Function: ||C-C'|| + ||S-S'||
-- #Epochs: 1000
+- #Epochs: 350
 - Batch Size: 32
 
 ## Results
